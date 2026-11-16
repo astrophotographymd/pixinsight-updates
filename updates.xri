@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xri version="1.0">
+
+   <description>
+      <p>
+         Astrophotography MD LLC update repository. This repository distributes
+         AstroMD Social Export, a PixInsight script for social media exports.
+      </p>
+   </description>
+
+   <platform os="all" arch="noarch" version="1.8.9:1.9.99">
+      <package fileName="20261116-AstroMD-SocialExport-1.3.1.tar.gz"
+               sha1="ea7228864168921dffb59ccf8110b25b6181865e"
+               type="script"
+               releaseDate="20261116">
+         <title>
+            AstroMD Social Export version 1.3.1
+         </title>
+         <remove>
+            src/scripts/AstroMD
+            doc/scripts/AstroMD
+         </remove>
+         <description>
+            <p>
+               This package installs version 1.3.1 of AstroMD Social Export.
+               After installation the script appears under
+               Script &gt; Astrophotography MD &gt; Social Export.
+            </p>
+            <p>
+               The free version exports Instagram files with a small credit.
+               A license key unlocks every platform, custom presets, your own
+               watermark, exporting several open images, and carousel export.
+            </p>
+            <p>
+               Copyright (c) 2026 Astrophotography MD LLC. All rights reserved.
+            </p>
+         </description>
+      </package>
+   </platform>
+
+</xri>
