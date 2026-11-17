@@ -9,12 +9,12 @@
    </description>
 
    <platform os="all" arch="noarch" version="1.8.9:1.9.99">
-      <package fileName="20261116-AstroMD-SocialExport-1.3.2.tar.gz"
-               sha1="54e20df8af457888214e754db3ca38745cf557c3"
+      <package fileName="20261117-AstroMD-SocialExport-1.4.0.tar.gz"
+               sha1="01e26267e5437073cadaad1d12db86ce2a7156a1"
                type="script"
-               releaseDate="20261116">
+               releaseDate="20261117">
          <title>
-            AstroMD Social Export version 1.3.2
+            AstroMD Social Export version 1.4.0
          </title>
          <remove>
             src/scripts/AstroMD
@@ -22,7 +22,7 @@
          </remove>
          <description>
             <p>
-               This package installs version 1.3.2 of AstroMD Social Export.
+               This package installs version 1.4.0 of AstroMD Social Export.
                After installation the script appears under
                Script &gt; Astrophotography MD &gt; Social Export.
             </p>
