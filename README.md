@@ -43,6 +43,25 @@ Then replace the published files with the new `repo/` output. Keep older
 package archives on the site if you want them still downloadable; PixInsight
 uses the sha1 in `updates.xri` to decide whether a package is new.
 
+## Package downloads
+
+`updates.xri` sets `serverURL` on the package element to:
+
+    https://astromd-keygen-sandbox.astrophotographymd.workers.dev/dl/
+
+PixInsight still loads `updates.xri` from this site. It downloads the
+archive from the address above, using the same relative file name.
+That server streams the file from this site and counts the download, so
+the archive must stay here under the same name. PixInsight does not
+follow redirects, and this download server does not redirect.
+
+To build a repository that omits `serverURL`, so PixInsight downloads
+the archive directly from this site, run:
+
+    python3 tools/build-repo.py --no-download-server
+
+or set `ASMD_OMIT_DOWNLOAD_SERVER=1` (also `true`, `yes`, or `on`).
+
 ## Signing
 
 Official PixInsight documentation says a repository should be signed with a
