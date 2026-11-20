@@ -9,13 +9,13 @@
    </description>
 
    <platform os="all" arch="noarch" version="1.8.9:1.9.99">
-      <package fileName="20261118-AstroMD-SocialExport-1.5.7.tar.gz"
-               sha1="2986c418dc8e27d536751a278b884c29ff2ab4f7"
+      <package fileName="20261120-AstroMD-SocialExport-1.5.8.tar.gz"
+               sha1="a8b1e62f05a28c3fddf4e11e515b928cdc675605"
                type="script"
-               releaseDate="20261118"
+               releaseDate="20261120"
                serverURL="https://astromd-keygen-sandbox.astrophotographymd.workers.dev/dl/">
          <title>
-            AstroMD Social Export version 1.5.7
+            AstroMD Social Export version 1.5.8
          </title>
          <remove>
             src/scripts/AstroMD
@@ -23,7 +23,7 @@
          </remove>
          <description>
             <p>
-               This package installs version 1.5.7 of AstroMD Social Export.
+               This package installs version 1.5.8 of AstroMD Social Export.
                After installation the script appears under
                Script &gt; Astrophotography MD &gt; Social Export.
             </p>
